@@ -1,0 +1,26 @@
+html, body{
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  Background: black;
+}
+body p{
+  text-transform: uppercase;
+  color:aqua;
+  font-family: Quicksand;
+  text-align:center;
+  font-size: 50px;
+}
+body h2{
+  text-transform: uppercase;
+  color: aqua;
+  font-family: Quicksand;
+  text-align: center;
+  font-size: 40px;
+}
+img{
+  width: 300px;
+  height: 300px;
+}
