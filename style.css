@@ -1,26 +1,21 @@
-html, body{
-  height: 100%;
-  width: 100%;
-  margin: 0;
-  padding: 0;
-  scroll-behavior: smooth;
-  Background: black;
+/* Reset Styles */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Arial, sans-serif;
 }
-body p{
-  text-transform: uppercase;
-  color:aqua;
-  font-family: Quicksand;
-  text-align:center;
-  font-size: 50px;
+
+/* Global Styles */
+body {
+	background-color: #f8f8f8;
 }
-body h2{
-  text-transform: uppercase;
-  color: aqua;
-  font-family: Quicksand;
-  text-align: center;
-  font-size: 40px;
-}
-img{
-  width: 300px;
-  height: 300px;
-}
+
+header {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	padding: 20px;
+	background-color: #fff;
+	box-shadow: 0px 2px
